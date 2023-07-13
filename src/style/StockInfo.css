@@ -1,0 +1,98 @@
+.branding {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  background-color: black;
+  color: white;
+}
+
+.current-information {
+  display: flex;
+  justify-content: space-around;
+}
+
+.current-price {
+  background-color: white;
+  width: 35%;
+  border-radius: 25px;
+  transform: translate(0%, -25%);
+  flex-wrap:wrap;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.current-stock-info {
+  background-color: white;
+  width: 55%;
+  padding: 20px;
+  border-radius: 25px;
+  transform: translate(0%, -25%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.prices-container {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+  width: 100%;
+}
+
+.graph {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 1%;
+}
+
+.aggregates-graph {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45%;
+  flex-wrap:wrap;
+  align-content: center;
+  row-gap: 2vh;
+}
+
+.contact-title {
+  background-color: white;
+  padding: 20px;
+  width: 85%;
+  border-radius: 25px;
+}
+
+.contact-description {
+  background-color: white;
+  padding: 20px;
+  width: 85%;
+  border-radius: 25px;
+}
+
+.contact-description p {
+  color: gray;
+  font-style: italic;
+}
+
+.market-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.market-info p {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+}

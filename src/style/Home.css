@@ -1,0 +1,28 @@
+.status-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.market-status {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.market-statuses {
+  display: flex;
+  justify-content: space-around;
+}
+
+.exchanges {
+  display: flex;
+  flex-direction:column;
+}
+
+.exchange-status-container {
+  display: flex;
+  justify-content: center;
+  column-gap:3vw;
+  width: 100%;
+}

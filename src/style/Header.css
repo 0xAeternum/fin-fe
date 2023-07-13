@@ -1,0 +1,37 @@
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+}
+.header-logo {
+  padding: 1%;
+}
+.header-links {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.header-links nav {
+  align-items: center;
+  display: flex;
+}
+
+.header-links nav a {
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 6px;
+  width: fit-content;
+  color: white;
+  text-decoration: none;
+}
+
+.header-links nav a:hover {
+  color: lightgray;
+}

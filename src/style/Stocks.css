@@ -1,0 +1,11 @@
+
+.table-link {
+  float: left;
+  border: none;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.table-link:hover {
+  cursor: pointer;
+}
